@@ -1,5 +1,9 @@
 # reproduce-opa-vscode-bug-1
 
+Scenario: Working on windows machines. Use opa.exe and regal.exe downloaded in a
+local bin-directory in the workspace, so that we can work with different
+versions in different repos.
+
 According to the documentation for the vscode plugin and `opa.ts` and `regal.ts`
 files in the source code, it should be possible to use `${workspaceFolder}` in
 the paths, but this doesn't seem to work on my windows machines.
