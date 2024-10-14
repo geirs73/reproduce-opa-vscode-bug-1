@@ -8,9 +8,10 @@ According to the documentation for the vscode plugin and `opa.ts` and `regal.ts`
 files in the source code, it should be possible to use `${workspaceFolder}` in
 the paths, but this doesn't seem to work on my windows machines.
 
-This is what I get when restarting host when having `${workspaceFolder}` in
-paths for `opa.dependency_paths.*` in `.vscode\settings.json` (workspace
-settings). It is the same when setting the values in the user settings.json.
+This is what I get when restarting the extension host when having
+`${workspaceFolder}` in paths for `opa.dependency_paths.*` in
+`.vscode\settings.json` (workspace settings). It is the same when setting the
+values in the user settings.json.
 
 ![screenshot](screenshot_after_restart_extension_host.png)
 
