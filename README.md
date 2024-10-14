@@ -4,7 +4,7 @@ Scenario: Working on windows machines. Use opa.exe and regal.exe downloaded in a
 local bin-directory in the workspace, so that we can work with different
 versions in different repos.
 
-According to the documentation for the vscode plugin and `opa.ts` and `regal.ts`
+According to the documentation for the vscode extension and `opa.ts` and `regal.ts`
 files in the source code, it should be possible to use `${workspaceFolder}` in
 the paths, but this doesn't seem to work on my windows machines.
 
@@ -56,7 +56,7 @@ OS: Windows_NT x64 10.0.22631
 
 ```
 
-### Open Policy Agent plugin
+### Open Policy Agent extension
 
 ```text
 Published: 2018-05-11, 22:05:10
