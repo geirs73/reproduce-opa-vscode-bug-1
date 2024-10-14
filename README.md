@@ -1,6 +1,6 @@
 # reproduce-opa-vscode-bug-1
 
-According to the documentation for the vscode plugin and opa.ts and regal.ts
+According to the documentation for the vscode plugin and `opa.ts` and `regal.ts`
 files in the source code, it should be possible to use `${workspaceFolder}` in
 the paths, but this doesn't seem to work on my windows machines.
 
