@@ -1,0 +1,6 @@
+{
+    "opa.dependency_paths.opa": "${workspaceFolder}\\bin\\opa.exe",
+    "opa.dependency_paths.regal": "${workspaceFolder}\\bin\\regal.exe",
+    // "opa.dependency_paths.opa": "${workspaceFolder}/bin/opa.exe",
+    // "opa.dependency_paths.regal": "${workspaceFolder}/bin/regal.exe",
+}
